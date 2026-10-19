@@ -1,0 +1,25 @@
+# Entorno virtual
+env/
+venv/
+.env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Dataset (descargar de Roboflow)
+datasets/
+
+# Pesos intermedios del entrenamiento (los finales están en la raíz)
+runs/detect/train/weights/*.pt
+
+# Videos de prueba pesados
+pruebas/video_prueba.mp4
+
+# Archivos de sistema y editores
+Thumbs.db
+.DS_Store
+.idea/
+.vscode/
